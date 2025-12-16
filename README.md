@@ -1,13 +1,17 @@
 ## 🛠️ Tech Stack
 * **Language:** Java Core
+* **GUI Framework:** Java Swing (JFrame, JTable)
 * **IDE:** NetBeans
 * **Data Structure:** ArrayList (Java Collections Framework)
-* **Architecture:** Console-based Application (CLI)
+* **Architecture:** Desktop GUI Application (Event-driven programming)
 
 ## ✨ Key Features & Algorithms
-* **Student Management (CRUD):** Add, View, Update, and Delete students utilizing `ArrayList`.
-* **Sorting Algorithm:** Implemented **Insertion Sort** to rank students by GPA descending.
-* **Searching Algorithm:** Implemented **Linear Search** to find students by Name or ID.
-* **Polymorphism:** Managed different student majors (IT, Biz, GD) using OOP principles.
+* **Graphical User Interface (GUI):** User-friendly interface to manage students without using command lines.
+* **Student Management (CRUD):** Add, Update, and Delete students directly via input forms and action buttons.
+* **Sorting Algorithm:** Implemented **Insertion Sort** (triggered via "Sort" button) to rank students by GPA.
+* **Searching & Filtering:**
+    * **Linear Search:** Find students by Name or ID.
+    * **Filter:** View students by specific Major (IT, Biz, GD).
+* **Real-time Validation:** Validates numeric inputs (Age, Marks) directly on the form.
 
-> **Note:** This project is a demonstration of **Data Structures and Algorithms** concepts. All data is stored in-memory (RAM) and will be reset upon application exit.
+> **Note:** This project combines **Data Structures (ArrayList)** with **Java Swing GUI**. Data is non-persistent (stored in RAM).
